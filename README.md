@@ -126,4 +126,18 @@ RFE იყენებს Ridge რეგრესიას როგორც e
 
 ---
 
+### ტრენინგი და ექსპერიმენტები
+გამოვიყენე სამი ძირითადი მოდელი: **Linear Regression**(სხვადასხვა ჰიპერპარამეტრებით რეგულარიზაციისთვის), **Decision Tree Regression**, **Random Forest Regression**, რომლებიც Dagshub-ზე MLFlow -თი დავლოგე. ასევე ყველა მოდელს თავისი Pipeline გავუკეთე, რაც ერთად preprocessing_pipeline ექსპერიმენტში დავლოგე.
+
+-- თითოეული მოდელისთვის დავლოგე შემდეგი მეტრიკები:
+
+| მეტრიკა | აღწერა |
+|---------|--------|
+| `train_r2` | R² სკორი train სეტზე (cross-validation) |
+| `val_r2` | R² სკორი validation სეტზე (cross-validation) |
+| `train_rmse` | RMSE train სეტზე (დოლარებში) |
+| `train_rmsle` | RMSLE train სეტზე |
+| `test_rmse` | RMSE test სეტზე (დოლარებში) |
+| `test_r2` | R² სკორი test სეტზე |
+| `test_rmsle` | RMSLE test სეტზე |
 
