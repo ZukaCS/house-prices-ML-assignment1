@@ -241,7 +241,7 @@ CF + RFE ფილტრებმა Decision Tree-ს შედეგები 
 ---
 ### 3. Random Forest Regression
 
-* აქაც გამოვიყენე **GridSearchCV**, რითიც გავტესტე 3*4*3*3 = 108 კომბინაცია (3 ცალი **n_estimators**, 4 ცალი **max_depth**, 3 ცალი **min_samples_leaf**, 3 ცალი **max_features**)
+* აქაც გამოვიყენე **GridSearchCV**, რითიც გავტესტე 3 * 4 * 3 * 3 = 108 კომბინაცია (3 ცალი **n_estimators**, 4 ცალი **max_depth**, 3 ცალი **min_samples_leaf**, 3 ცალი **max_features**)
 
 ### Random Forest შედეგები (top 4 best + top 4 worst) CF და RFE ფილტრების გარეშე
 
