@@ -185,6 +185,9 @@ RFE იყენებს Ridge რეგრესიას როგორც e
 
 ### 2. Decision Tree Regression 
 
+* აქ ბევრი ჰიპერპარამეტრების გასატესტად გამოვიყენე **GridSearchCV**, რამაც მომცა საშუალება სხვადასხვა ჰიპერპარამეტრის კომბინაციით გამეტესტა მოდელები.
+* 7 ცალი **max_depth**-ი და 5 ცალი **min_samples_leaf- ით მივიღე 35 კომბინაცია.
+
 ### Decision Tree შედეგები (top 5 best + top 5 worst) CF და RFE ფილტრების გარეშე
 
 **საუკეთესო მოდელები:**
@@ -237,6 +240,8 @@ CF + RFE ფილტრებმა Decision Tree-ს შედეგები 
 
 ---
 ### 3. Random Forest Regression
+
+* აქაც გამოვიყენე **GridSearchCV**, რითიც გავტესტე 3*4*3*3 = 108 კომბინაცია (3 ცალი **n_estimators**, 4 ცალი **max_depth**, 3 ცალი **min_samples_leaf**, 3 ცალი **max_features**)
 
 ### Decision Tree შედეგები (top 4 best + top 4 worst) CF და RFE ფილტრების გარეშე
 
