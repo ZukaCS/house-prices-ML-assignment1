@@ -292,5 +292,5 @@ CF + RFE ფილტრებმა აქაც, შედეგები გ�
 ![Kaggle score](images/image.png)
 
 ## MLflow ექსპერიმენტები
-[DagShub MLflow](https://dagshub.com/ZukaCS/house-prices-ML-assignment1.mlflow)
+[DagShub MLflow](https://dagshub.com/ZukaCS/house-prices-ML-assignment1.mlflow/#/experiments)
 
